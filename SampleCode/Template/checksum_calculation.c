@@ -15,8 +15,8 @@
 // #define ENABLE_SW_CRC32
 
 #if defined (ENABLE_SW_CRC32)
-// #define USE_SRAM_TABLE
-#define USE_FLASH_TABLE
+#define USE_SRAM_TABLE
+// #define USE_FLASH_TABLE
 
 unsigned long state = 0xFFFFFFFF;
 
